@@ -8,7 +8,7 @@ namespace show
 {
     class Program
     {
-     public static int Soma (int x, int y)
+     public static int Somar (int x, int y)
         {
             return x + y;
         }
@@ -22,7 +22,7 @@ namespace show
         }
         static void Main(string[] args)
         {
-            
+            Console.WriteLine("Resultado da soma: {0}+{1}",3,5,Somar(3,5));
         }
     }
 }
